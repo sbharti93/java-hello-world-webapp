@@ -5,4 +5,4 @@ From tomcat:8-jre8
 MAINTAINER "sudarshan <sudarshan@gmail.com">
 
 # Copy to images tomcat path
-ADD java-hello-world.war /usr/local/tomcat/webapps/
+ADD target/*.war /usr/local/tomcat/webapps/
